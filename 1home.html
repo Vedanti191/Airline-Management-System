@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aerofly Management System</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 1500px;
+        margin: 150px auto;
+        background-color:#bb8695a8;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        font-size: 36px;
+        text-align: center;
+        color: #333;
+        margin-bottom: 30px;
+    }
+
+    .user-type {
+        text-align: center;
+    }
+
+    .user-type button {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin: 0 10px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        background-color: #007bff;
+        color: #fff;
+        transition: background-color 0.3s ease;
+    }
+
+    .user-type button:hover {
+        background-color: #0056b3;
+    }
+    body {
+        background-image: url('home.jpg'); 
+        background-size: 100%; 
+        background-position: center; 
+        background-repeat: no-repeat;
+        margin: 0; 
+        padding: 0; 
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    footer a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    footer a.instagram {
+        color: #E1306C; /* Instagram color */
+    }
+
+    footer a.linkedin {
+        color: #0077B5; /* LinkedIn color */
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1><u>Aerofly Management System</u></h1>
+
+    <div class="user-type">
+        <button onclick="location.href='admin.php'">Admin</button>
+        <button onclick="location.href='passenger_registration.php'">Passenger</button>
+        <button onclick="location.href='staff_registration.php'">Staff</button>
+    </div>
+
+    <p style="text-align: center; margin-top: 20px;">Not Registered? <a href="registration.html" style="color: #007bff; text-decoration: underline;">Click here</a> to register.</p>
+</div>
+<footer>
+    Follow us on <a href="https://www.instagram.com/aerofly_airlines?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="instagram">Instagram</a> 
+    <br>
+    Connect with us on <a href="https://www.linkedin.com/company/aerofly-management-system" target="_blank" class="linkedin">LinkedIn</a>
+</footer>
+</body>
+</html>
